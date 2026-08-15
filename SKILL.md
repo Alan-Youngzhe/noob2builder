@@ -37,7 +37,7 @@ description: Noob2Builder AI Builder School——由 Agent 在主对话中带学
 
 | ID | 课程 | 文件 |
 |---|---|---|
-| `computer-network` | 电脑与网络生存课 | `references/courses/computer-network.md` |
+| `computer-network` | 计算机与网络基础：看懂 Agent 正在做什么 | `references/courses/computer-network.md` |
 | `ai-map` | AI 世界地图 | `references/courses/ai-map.md` |
 | `llm-agent` | LLM 与 Agent 原理 | `references/courses/llm-agent.md` |
 | `git-github` | Git & GitHub | `references/courses/git-github.md` |

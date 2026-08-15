@@ -1,0 +1,4 @@
+interface:
+  display_name: "Noob2Builder School"
+  short_description: "由 Agent 带学，从纯小白到做出第一个可验收作品"
+  default_prompt: "Use $noob2builder to show me the elective catalog and guide me through one practical lesson."

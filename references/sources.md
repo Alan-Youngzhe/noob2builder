@@ -8,6 +8,7 @@
 - CC Quick Installer：<https://github.com/Alan-Youngzhe/CC_quick_installer>
 - Forge Town Skills：<https://github.com/forge-town/skills>
 - Alan 的 Builder 实战摘录：`alan-field-notes.md`
+- GrillMe：Alan 当前需求访谈流程中的可选 Skill；本课程不绑定某个同名实现。检测到学生已安装的版本就按其说明调用，否则由导师执行同等的一问一答访谈。
 
 ## 课程参考
 

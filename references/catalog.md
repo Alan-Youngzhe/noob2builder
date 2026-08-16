@@ -15,8 +15,8 @@
 | ID | 课程 | 一句话结果 | 状态 |
 |---|---|---|---|
 | ② | Git & GitHub | 让作品有版本、能恢复、能协作，并完成第一次真实 PR | alpha |
-| ③ | AI Builder 工作法 | 把模糊想法变成 Agent 能执行、自己能验收的小任务 | alpha |
-| ④ | 做出并发布第一个东西 | 自由选择作品和技术，走完想法、实现、验收、发布、反馈 | alpha |
+| ③ | AI Builder 工作法 | 学会 GrillMe、双稿 PRD、Design System、原型、Spec、敏捷 MVP 与交叉 Review | alpha |
+| ④ | 做出并发布第一个东西 | 用 Alan 的 0→1 流程，把自己的想法做成可验收、可发布的作品 | alpha |
 | ⑩ | Agent 构建实验室 | 从 ReAct 到工具调用，做出一个能验收的 Agent | alpha |
 
 ## 我想继续进阶

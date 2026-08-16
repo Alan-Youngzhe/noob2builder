@@ -28,6 +28,21 @@ SECRET_PATTERNS = {
 }
 LINK_RE = re.compile(r"\]\(([^)]+)\)")
 CODE_PATH_RE = re.compile(r"`((?:\.\.?/|references/)[^`\s]+\.md)`")
+ALAN_WORKFLOW = [
+    "GrillMe 需求访谈",
+    "PRD v0（薄的需求初稿）",
+    "构思 Design System",
+    "Lovable 生成可见原型",
+    "根据原型反写 PRD v1",
+    "让 AI 产出技术 Spec",
+    "敏捷开发一个端到端 MVP",
+    "先验证可行性和用户核心动作",
+    "再补工程质量、测试和跨模型 Review",
+]
+REQUIRED_METHOD_PHRASES = [
+    "独立交接测试",
+    "核心产品行为应该大差不差",
+]
 
 
 def fail(message: str, failures: list[str]) -> None:
@@ -78,6 +93,16 @@ def validate_skill(failures: list[str]) -> None:
         fail("SKILL.md frontmatter or name is invalid", failures)
     if "description:" not in text.split("---", 2)[1]:
         fail("SKILL.md is missing its description", failures)
+    cursor = -1
+    for step in ALAN_WORKFLOW:
+        position = text.find(step, cursor + 1)
+        if position < 0:
+            fail(f"Alan workflow step is missing or out of order: {step}", failures)
+            break
+        cursor = position
+    for phrase in REQUIRED_METHOD_PHRASES:
+        if phrase not in text:
+            fail(f"Alan method requirement is missing from SKILL.md: {phrase}", failures)
 
 
 def validate_markdown(listed: set[str], failures: list[str]) -> None:

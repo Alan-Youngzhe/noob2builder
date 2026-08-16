@@ -31,6 +31,28 @@ description: Noob2Builder AI Builder School——由 Agent 在主对话中带学
 
 详细教学规则见 `references/pedagogy.md`；存档结构见 `references/state-schema.md`。
 
+## Alan 默认 0→1 Builder 工作流
+
+学生进入 `builder-method` 或 `first-build`，且没有明确要求另一套流程时，先读取 `references/alan-field-notes.md`，把这条工作流作为默认主干：
+
+```text
+GrillMe 需求访谈
+→ PRD v0（薄的需求初稿）
+→ 构思 Design System
+→ Lovable 生成可见原型
+→ 根据原型反写 PRD v1
+→ 让 AI 产出技术 Spec
+→ 敏捷开发一个端到端 MVP
+→ 先验证可行性和用户核心动作
+→ 再补工程质量、测试和跨模型 Review
+```
+
+- `GrillMe` 已安装时调用它；未安装时由导师按同样契约执行：一次只问一个会改变需求的问题，每题给推荐答案，先聊用户意图而不是逼小白选择技术。
+- Lovable 是 Web 产品的 Alan 默认原型入口，不是所有作品的固定工具。非 Web 作品选择能最快产生可见或可操作反馈的原型方式。
+- PRD v1 必须通过“独立交接测试”：把 PRD v1、Design System 和原型交给没有参与前面对话的开发者或 Agent；如果对方仍需猜核心流程、交互、范围或成功标准，就继续反写。允许技术实现不同，但做出的核心产品行为应该大差不差。
+- MVP 阶段不追求完整工程体系，但仍保留最低安全、秘密保护、版本历史和核心行为验收。验证可行后，再投入重构、测试矩阵、CI 和交叉 Review。
+- 学生已经有 PRD、Design System、原型或 MVP 时，从当前阶段进入，不强迫重走流程。
+
 ## 课程路由
 
 先读取 `references/catalog.md`。稳定课程 ID 与文件：

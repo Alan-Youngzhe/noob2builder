@@ -1,10 +1,11 @@
 {
   "name": "noob2builder",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "status": "alpha",
   "source": "https://github.com/Alan-Youngzhe/noob2builder",
   "files": [
     ".gitignore",
+    "README.md",
     "SKILL.md",
     "WALL.md",
     "agents/openai.yaml",
@@ -24,6 +25,7 @@
     "references/lessons/agent-lab/02-tool-calling.md",
     "references/lessons/agent-lab/03-context-memory-rag.md",
     "references/lessons/agent-lab/04-evaluate-and-repair.md",
+    "references/lessons/builder-method/00-alan-default-workflow.md",
     "references/lessons/builder-method/01-problem-before-prompt.md",
     "references/lessons/builder-method/02-interview-to-project-card.md",
     "references/lessons/builder-method/03-choose-technology.md",

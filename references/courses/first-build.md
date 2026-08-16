@@ -11,14 +11,14 @@
 | 节点 | 文件 |
 |---|---|
 | 找到值得做的一件小事 | `../lessons/first-build/01-find-a-real-problem.md` |
-| 生成个人项目地图 | `../lessons/first-build/02-project-map.md` |
-| 先做可见原型 | `../lessons/first-build/03-visible-prototype.md` |
-| 实现一个端到端切片 | `../lessons/first-build/04-build-a-slice.md` |
-| 测试、修复与发布 | `../lessons/first-build/05-verify-publish-feedback.md` |
+| GrillMe 访谈与 PRD v0 | `../lessons/first-build/02-project-map.md` |
+| Design System、Lovable 原型、PRD v1 与 Spec | `../lessons/first-build/03-visible-prototype.md` |
+| 敏捷开发一个端到端 MVP | `../lessons/first-build/04-build-a-slice.md` |
+| 可行性门、工程质量、交叉 Review 与发布 | `../lessons/first-build/05-verify-publish-feedback.md` |
 
 ## 技术选择
 
-Agent 根据作品类型调查方案：静态网页、Web 应用、脚本、数据工具、机器人、Skill、桌面工具或开源贡献都可以。推荐必须包含：为什么适合、暂不需要什么、一个备选和第一段可验收成果。
+Agent 根据作品类型调查方案：静态网页、Web 应用、脚本、数据工具、机器人、Skill、桌面工具或开源贡献都可以。推荐必须包含：为什么适合、暂不需要什么、一个备选和第一段可验收成果。Web 产品默认在 PRD v0 后先构思 Design System，再用 Lovable 验证方向；原型不自动成为最终工程代码。
 
 Supabase、Vercel、Lovable、baoyu-design、Figma MCP、Pencil MCP、shadcn/ui 是 Alan 的经验选项，不是必选项。需要 Web 概念时插入共享节点。
 
@@ -28,6 +28,7 @@ Supabase、Vercel、Lovable、baoyu-design、Figma MCP、Pencil MCP、shadcn/ui 
 - 可读版本历史；
 - 三个真实验收样例；
 - 一次失败与修复闭环；
+- 一次 MVP 可行性判断和一次独立交叉 Review；
 - 别人可以获得或使用的交付物；
 - 至少一名目标用户的真实反馈；
 - Builder 证据卡。

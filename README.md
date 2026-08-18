@@ -26,6 +26,9 @@
 | `ai-engineering-evolution` | 从 Prompt 到 Graph | AI 工程方法的演进路径 |
 | `ai-product-sense` | AI 产品 Sense | 建立 AI 产品的判断力 |
 | `agent-lab` | Agent 构建实验室 | 亲手构建带工具调用和验收的 Agent |
+| `frontend-foundations` | 前端基础：三件套与工程化 | HTML/CSS/JS、npm、Vite、TypeScript，看懂 Agent 生成的前端 |
+| `frontend-framework` | 前端框架：组件化与项目结构 | Vue/React、组件化、TSX、路由、项目结构与有证据的重构 |
+| `backend-foundations` | 后端基础：API、数据与上线 | API 设计、鉴权、数据持久化与真实部署 |
 
 ## 怎么开始
 
@@ -76,7 +79,7 @@ manifest.json       版本与文件清单
 references/
   catalog.md        课程目录
   pedagogy.md       教学法细则
-  courses/          11 门课程的教案
+  courses/          14 门课程的教案
   lessons/          各课程的具体课节与实验
   lessons/shared/   安全、Web、数据库、HTTP 状态码与证据卡等共享节点
 WALL.md             校友墙

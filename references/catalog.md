@@ -18,6 +18,7 @@
 | ③ | AI Builder 工作法 | 学会 brainstorming 发散、GrillMe 收敛、双稿 PRD、Design System、原型、Spec、敏捷 MVP 与交叉 Review | alpha |
 | ④ | 做出并发布第一个东西 | 用 Alan 的 0→1 流程，把自己的想法做成可验收、可发布的作品 | alpha |
 | ⑩ | Agent 构建实验室 | 从 ReAct 到工具调用，做出一个能验收的 Agent | alpha |
+| ⑫ | 前端基础：三件套与工程化 | 看懂 HTML/CSS/JS，会用 npm、Vite、TypeScript，不再把 Agent 生成的网页当黑盒 | alpha |
 
 ## 我想继续进阶
 
@@ -25,6 +26,8 @@
 |---|---|---|---|
 | ⑤ | 从 Vibe Coding 到 Agentic Engineering | 为旧项目补规格、测试、机器门禁、Review 与上线观察 | beta |
 | ⑪ | 测试与验证 | 分清单元、集成、冒烟、E2E，把 Agent 的“完成”变成可重放证据 | beta |
+| ⑬ | 前端框架：组件化与项目结构 | 看懂组件、props、state、TSX 与路由，能做有验收证据的重构 | alpha |
+| ⑭ | 后端基础：API、数据与上线 | 分清前后端边界，做出有鉴权、有数据、部署后可访问的最小后端 | beta |
 | ⑥ | 从 Prompt 到 Graph | 判断 Prompt、Context、Harness、Loop、Graph 各解决什么问题 | beta |
 | ⑦ | AI 产品 Sense | 从用户、Context、行动、反馈与价值判断 AI 产品是否值得做 | beta |
 
@@ -39,5 +42,9 @@
 - 想系统学习测试层级、测试矩阵、回归和 CI：推荐 ⑪；已有复杂旧项目时可同时进入 ⑤。
 - 被行业热词弄糊涂：推荐 ⑥。
 - 会做 Demo 但不知道用户为什么持续使用：推荐 ⑦。
+- 看不懂 Agent 生成的网页代码、分不清 HTML/CSS/JS 和构建产物：推荐 ⑫。
+- 会生成页面但项目结构混乱、不敢重构：推荐 ⑬；缺 npm/Vite/TS 基础时先回 ⑫。
+- 数据不知道存哪、密钥写在前端、或需要部署一个真实可访问的服务：推荐 ⑭。
+- 想从“能生成”走向“能改、能验、能维护”：⑫ ⑬ ⑭ 是 ⑤ 的技术地基。
 
 所有课程可直接选择。缺少基础时导师插入共享节点，不把推荐变成资格考试。

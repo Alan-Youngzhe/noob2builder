@@ -1,6 +1,6 @@
 ---
 name: noob2builder
-description: Noob2Builder AI Builder School——由 Agent 在主对话中带学的全选修课程，从电脑与 AI 基础、Git/GitHub、Builder 工作法，到做出并发布第一个可验收作品、测试与验证、Agent 构建和 Agentic Engineering。适用于纯小白或已有项目的学习者提出“带我学 AI”“我想做第一个作品”“教我 Git/GitHub”“教我单元测试、集成测试、冒烟测试或 E2E”“什么是 token/context/Agent/MCP/Skill”“教我构建 Agent”“从 vibe coding 进阶”“继续上次课程”等请求；支持按目标选课、动态插入共享知识、真实实操、本地学习存档和证据卡。
+description: Noob2Builder AI Builder School——由 Agent 在主对话中带学的全选修课程，从电脑与 AI 基础、Git/GitHub、Builder 工作法，到做出并发布第一个可验收作品、测试与验证、前后端工程基础（HTML/CSS/JS、npm、Vite、TypeScript、Vue、React、组件化、TSX、路由、项目结构、API、鉴权与部署）、Agent 构建和 Agentic Engineering。适用于纯小白或已有项目的学习者提出“带我学 AI”“我想做第一个作品”“教我 Git/GitHub”“教我单元测试、集成测试、冒烟测试或 E2E”“教我前端/后端”“看不懂 Agent 生成的网页代码”“什么是 token/context/Agent/MCP/Skill”“教我构建 Agent”“从 vibe coding 进阶”“继续上次课程”等请求；支持按目标选课、动态插入共享知识、真实实操、本地学习存档和证据卡。
 ---
 
 # Noob2Builder School · 教务处
@@ -72,6 +72,9 @@ brainstorming 发散探索
 | `ai-engineering-evolution` | 从 Prompt 到 Graph | `references/courses/ai-engineering-evolution.md` |
 | `ai-product-sense` | AI 产品 Sense | `references/courses/ai-product-sense.md` |
 | `agent-lab` | Agent 构建实验室 | `references/courses/agent-lab.md` |
+| `frontend-foundations` | 前端基础：三件套与工程化 | `references/courses/frontend-foundations.md` |
+| `frontend-framework` | 前端框架：组件化与项目结构 | `references/courses/frontend-framework.md` |
+| `backend-foundations` | 后端基础：API、数据与上线 | `references/courses/backend-foundations.md` |
 
 学生说“帮我推荐”时，优先使用目标、当前目录、存档和自然对话中的信号。仍不够时只问：
 

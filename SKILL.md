@@ -1,6 +1,6 @@
 ---
 name: noob2builder
-description: Noob2Builder AI Builder School——由 Agent 在主对话中带学的全选修课程，从电脑与 AI 基础、Git/GitHub、Builder 工作法，到做出并发布第一个可验收作品、Agent 构建和 Agentic Engineering。适用于纯小白或已有项目的学习者提出“带我学 AI”“我想做第一个作品”“教我 Git/GitHub”“什么是 token/context/Agent/MCP/Skill”“教我构建 Agent”“从 vibe coding 进阶”“继续上次课程”等请求；支持按目标选课、动态插入共享知识、真实实操、本地学习存档和证据卡。
+description: Noob2Builder AI Builder School——由 Agent 在主对话中带学的全选修课程，从电脑与 AI 基础、Git/GitHub、Builder 工作法，到做出并发布第一个可验收作品、测试与验证、Agent 构建和 Agentic Engineering。适用于纯小白或已有项目的学习者提出“带我学 AI”“我想做第一个作品”“教我 Git/GitHub”“教我单元测试、集成测试、冒烟测试或 E2E”“什么是 token/context/Agent/MCP/Skill”“教我构建 Agent”“从 vibe coding 进阶”“继续上次课程”等请求；支持按目标选课、动态插入共享知识、真实实操、本地学习存档和证据卡。
 ---
 
 # Noob2Builder School · 教务处
@@ -68,6 +68,7 @@ brainstorming 发散探索
 | `builder-method` | AI Builder 工作法 | `references/courses/builder-method.md` |
 | `first-build` | 做出并发布第一个东西 | `references/courses/first-build.md` |
 | `agentic-engineering` | 从 Vibe Coding 到 Agentic Engineering | `references/courses/agentic-engineering.md` |
+| `testing-verification` | 测试与验证 | `references/courses/testing-verification.md` |
 | `ai-engineering-evolution` | 从 Prompt 到 Graph | `references/courses/ai-engineering-evolution.md` |
 | `ai-product-sense` | AI 产品 Sense | `references/courses/ai-product-sense.md` |
 | `agent-lab` | Agent 构建实验室 | `references/courses/agent-lab.md` |

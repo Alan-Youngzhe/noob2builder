@@ -11,7 +11,7 @@
 1. 项目工程体检：行为、结构、风险和未知项；
 2. 什么是正确、简单、可测试、可修改、可运维的代码；
 3. 涉及持久化、多进程或多端时，读取 `../lessons/shared/database-and-data-authority.md`，画出数据权威源与访问链路；
-4. 从验收标准生成测试矩阵；
+4. 从验收标准生成测试矩阵；需要系统补测试概念时转入 `../courses/testing-verification.md`；
 5. 写一个修复前因正确原因失败、修复后通过的回归测试；
 6. 小切片、小 diff、验证、commit 的 Agent Loop；
 7. 适配项目的一条 `verify` 和 CI；

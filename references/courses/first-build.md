@@ -22,6 +22,8 @@ Agent 根据作品类型调查方案：静态网页、Web 应用、脚本、数�
 
 只有作品确实需要持久化、登录、多人共享数据或跨进程访问时，才插入 `../lessons/shared/database-and-data-authority.md`。先画数据权威源与访问链路，再讨论数据库产品；不能因为示例常用 Supabase 就默认给所有项目加数据库。
 
+MVP 通过可行性门后，如果要系统补测试层级、回归和 CI，转入 `../courses/testing-verification.md`；MVP 阶段仍保留核心路径 smoke 验收。
+
 Supabase、Vercel、Lovable、baoyu-design、Figma MCP、Pencil MCP、shadcn/ui 是 Alan 的经验选项，不是必选项。需要 Web 概念时插入共享节点。
 
 ## 完成证据

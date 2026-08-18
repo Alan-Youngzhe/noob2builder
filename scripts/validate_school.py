@@ -56,6 +56,13 @@ HTTP_METHOD_PHRASES = [
     "403 = 我知道你是谁，但你不能进。",
     "先看状态码，再看响应体",
 ]
+TESTING_METHOD_PHRASES = [
+    "单元测试",
+    "集成测试",
+    "冒烟测试",
+    "E2E",
+    "RED → 修复 → GREEN",
+]
 
 
 def fail(message: str, failures: list[str]) -> None:
@@ -130,6 +137,13 @@ def validate_skill(failures: list[str]) -> None:
     for phrase in HTTP_METHOD_PHRASES:
         if phrase not in http_lesson:
             fail(f"HTTP method requirement is missing: {phrase}", failures)
+
+    testing_course = (ROOT / "references/courses/testing-verification.md").read_text(
+        encoding="utf-8"
+    )
+    for phrase in TESTING_METHOD_PHRASES:
+        if phrase not in testing_course:
+            fail(f"testing course requirement is missing: {phrase}", failures)
 
 
 def validate_markdown(listed: set[str], failures: list[str]) -> None:

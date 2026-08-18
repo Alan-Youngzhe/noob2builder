@@ -22,6 +22,7 @@
 | `builder-method` | AI Builder 工作法 | 问题先于 prompt，从访谈到垂直切片 |
 | `first-build` | 做出并发布第一个东西 | 找到真实问题，做出可验收的作品并发布 |
 | `agentic-engineering` | 从 Vibe Coding 到 Agentic Engineering | 为项目补上测试、验证门禁和 Review |
+| `testing-verification` | 测试与验证 | 单元、集成、冒烟、E2E、回归、CI 和独立 Review |
 | `ai-engineering-evolution` | 从 Prompt 到 Graph | AI 工程方法的演进路径 |
 | `ai-product-sense` | AI 产品 Sense | 建立 AI 产品的判断力 |
 | `agent-lab` | Agent 构建实验室 | 亲手构建带工具调用和验收的 Agent |
@@ -44,7 +45,7 @@ manifest.json       版本与文件清单
 references/
   catalog.md        课程目录
   pedagogy.md       教学法细则
-  courses/          10 门课程的教案
+  courses/          11 门课程的教案
   lessons/          各课程的具体课节与实验
   lessons/shared/   安全、Web、数据库、HTTP 状态码与证据卡等共享节点
 WALL.md             校友墙
@@ -52,4 +53,4 @@ WALL.md             校友墙
 
 ## 状态
 
-Alpha (v0.4.0)。课程内容持续迭代中，欢迎 Issue 和 PR。
+Alpha (v0.5.0)。课程内容持续迭代中，欢迎 Issue 和 PR。

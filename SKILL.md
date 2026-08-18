@@ -84,6 +84,7 @@ brainstorming 发散探索
 
 - 第一次处理 API Key、个人数据、公开仓库或危险命令：`references/lessons/shared/safety-and-secrets.md`
 - 第一次做 Web 页面或分不清前后端：`references/lessons/shared/web-product-foundations.md`
+- 第一次确实需要持久化、登录、多人共享数据，或出现数据库选型、多进程数据不一致：`references/lessons/shared/database-and-data-authority.md`
 - 准备结束一次课程或公开作品：`references/lessons/shared/evidence-card.md`
 
 ## 一节课怎样进行

@@ -20,6 +20,8 @@
 
 Agent 根据作品类型调查方案：静态网页、Web 应用、脚本、数据工具、机器人、Skill、桌面工具或开源贡献都可以。推荐必须包含：为什么适合、暂不需要什么、一个备选和第一段可验收成果。Web 产品默认在 PRD v0 后先构思 Design System，再用 Lovable 验证方向；原型不自动成为最终工程代码。
 
+只有作品确实需要持久化、登录、多人共享数据或跨进程访问时，才插入 `../lessons/shared/database-and-data-authority.md`。先画数据权威源与访问链路，再讨论数据库产品；不能因为示例常用 Supabase 就默认给所有项目加数据库。
+
 Supabase、Vercel、Lovable、baoyu-design、Figma MCP、Pencil MCP、shadcn/ui 是 Alan 的经验选项，不是必选项。需要 Web 概念时插入共享节点。
 
 ## 完成证据

@@ -16,6 +16,7 @@ REQUIRED = {
     "WALL.md",
     "agents/openai.yaml",
     "references/catalog.md",
+    "references/lessons/shared/database-and-data-authority.md",
     "references/pedagogy.md",
     "references/state-schema.md",
     "references/sources.md",
@@ -43,6 +44,11 @@ ALAN_WORKFLOW = [
 REQUIRED_METHOD_PHRASES = [
     "独立交接测试",
     "核心产品行为应该大差不差",
+]
+DATABASE_METHOD_PHRASES = [
+    "数据只有一个逻辑权威源",
+    "不要把不同维度放在一张候选表里直接比较",
+    "不能只看 HTTP 200 或 Agent 的“成功”",
 ]
 
 
@@ -104,6 +110,13 @@ def validate_skill(failures: list[str]) -> None:
     for phrase in REQUIRED_METHOD_PHRASES:
         if phrase not in text:
             fail(f"Alan method requirement is missing from SKILL.md: {phrase}", failures)
+
+    database_lesson = (
+        ROOT / "references/lessons/shared/database-and-data-authority.md"
+    ).read_text(encoding="utf-8")
+    for phrase in DATABASE_METHOD_PHRASES:
+        if phrase not in database_lesson:
+            fail(f"database method requirement is missing: {phrase}", failures)
 
 
 def validate_markdown(listed: set[str], failures: list[str]) -> None:

@@ -8,6 +8,7 @@
 - CC Quick Installer：<https://github.com/Alan-Youngzhe/CC_quick_installer>
 - Forge Town Skills：<https://github.com/forge-town/skills>
 - Alan 的 Builder 实战摘录：`alan-field-notes.md`
+- Alan 的《数据库选型指南》（2026-08-18）：基于 Ordine PGLite 双实例事故与开源项目调研；课程保留真实事故，修正并弱化不能泛化的绝对结论。
 - brainstorming + GrillMe：Alan 当前“先发散、再收敛”的可选 Skills；本课程不绑定某个同名实现。检测到学生已安装的版本就按其说明调用，否则由导师先做有限发散，再执行同等的一问一答访谈。
 
 ## 课程参考
@@ -19,6 +20,9 @@
 - Supabase 文档：<https://supabase.com/docs>
 - Vercel 文档：<https://vercel.com/docs>
 - shadcn/ui：<https://ui.shadcn.com/>
+- SQLite 多进程与锁：<https://www.sqlite.org/faq.html>、<https://www.sqlite.org/lockingv3.html>
+- PGlite Socket：<https://pglite.dev/docs/pglite-socket>
+- Redis 用途与持久化：<https://redis.io/docs/latest/get-started/>、<https://redis.io/docs/latest/operate/oss_and_stack/management/persistence/>
 
 ## Hello Agents 许可
 

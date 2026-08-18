@@ -11,7 +11,7 @@
 | 节点 | 文件 |
 |---|---|
 | 找到值得做的一件小事 | `../lessons/first-build/01-find-a-real-problem.md` |
-| GrillMe 访谈与 PRD v0 | `../lessons/first-build/02-project-map.md` |
+| brainstorming 发散、GrillMe 访谈与 PRD v0 | `../lessons/first-build/02-project-map.md` |
 | Design System、Lovable 原型、PRD v1 与 Spec | `../lessons/first-build/03-visible-prototype.md` |
 | 敏捷开发一个端到端 MVP | `../lessons/first-build/04-build-a-slice.md` |
 | 可行性门、工程质量、交叉 Review 与发布 | `../lessons/first-build/05-verify-publish-feedback.md` |

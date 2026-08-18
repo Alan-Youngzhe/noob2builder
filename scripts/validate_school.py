@@ -29,7 +29,8 @@ SECRET_PATTERNS = {
 LINK_RE = re.compile(r"\]\(([^)]+)\)")
 CODE_PATH_RE = re.compile(r"`((?:\.\.?/|references/)[^`\s]+\.md)`")
 ALAN_WORKFLOW = [
-    "GrillMe 需求访谈",
+    "brainstorming 发散探索",
+    "GrillMe 需求访谈与收敛",
     "PRD v0（薄的需求初稿）",
     "构思 Design System",
     "Lovable 生成可见原型",

@@ -12,14 +12,14 @@
 |---|---|
 | Alan 默认 0→1 工作流 | `../lessons/builder-method/00-alan-default-workflow.md` |
 | 别从 Prompt 开始 | `../lessons/builder-method/01-problem-before-prompt.md` |
-| GrillMe 需求访谈与 PRD v0 | `../lessons/builder-method/02-interview-to-project-card.md` |
+| brainstorming 发散、GrillMe 收敛与 PRD v0 | `../lessons/builder-method/02-interview-to-project-card.md` |
 | Design System、Lovable、PRD v1 与 Spec | `../lessons/builder-method/03-choose-technology.md` |
 | 砍成第一刀 | `../lessons/builder-method/04-vertical-slice.md` |
 | 把完成写成证据 | `../lessons/builder-method/05-acceptance-and-debug.md` |
 
 ## Alan 方法的接入
 
-进入本课程先读取 `../alan-field-notes.md`。Alan 的默认顺序是 `GrillMe → PRD v0 → Design System → Lovable 原型 → PRD v1 → Spec → 敏捷 MVP → 可行性验证 → 工程质量与交叉 Review`。它是默认案例，不是强制所有项目使用 Lovable 或同一技术栈。
+进入本课程先读取 `../alan-field-notes.md`。Alan 的默认顺序是 `brainstorming → GrillMe → PRD v0 → Design System → Lovable 原型 → PRD v1 → Spec → 敏捷 MVP → 可行性验证 → 工程质量与交叉 Review`。它是默认案例，不是强制所有项目使用 Lovable 或同一技术栈。
 
 ## 完成证据
 

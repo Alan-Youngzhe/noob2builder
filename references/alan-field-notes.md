@@ -5,7 +5,8 @@
 ## Alan 当前默认的 0→1 顺序
 
 ```text
-GrillMe 需求访谈
+brainstorming 发散探索
+→ GrillMe 需求访谈与收敛
 → PRD v0
 → Design System
 → Lovable 原型
@@ -51,7 +52,7 @@ GrillMe 需求访谈
 
 **形成的判断**：好的流程不追求 Agent 第一次全对，而是让错误更早暴露、纠错更便宜。文档模板本质上是在给 Agent 的注意力编程。
 
-**课程化动作**：小白先用 GrillMe 形成薄 PRD v0；原型后反写 PRD v1，并让 AI 生成一份轻量 Spec。只有 MVP 通过可行性门、项目准备长期维护后，才逐步引入完整测试矩阵、CI 和多层 Review。
+**课程化动作**：小白先用 brainstorming 发散问题、用户和方向，再用 GrillMe 逐题收敛，形成薄 PRD v0；原型后反写 PRD v1，并让 AI 生成一份轻量 Spec。只有 MVP 通过可行性门、项目准备长期维护后，才逐步引入完整测试矩阵、CI 和多层 Review。
 
 ## 3. Glint：设计探索推翻 PRD v0
 
@@ -67,7 +68,7 @@ GrillMe 需求访谈
 
 **场景**：视觉工具适合讨论信息架构和核心交互，却不适合为按钮间距反复走漫长回合。
 
-**做法**：先用 GrillMe 形成 PRD v0，再构思轻量 Design System，把两者交给 Lovable 生成可见原型；Figma、Pencil 可通过 MCP 让 Agent 操作。学生查看原型后反写 PRD v1，再让 AI 生成 Spec。方向确定后回到真实项目，用热重载收敛细节。
+**做法**：先用 brainstorming 发散，再用 GrillMe 形成 PRD v0，构思轻量 Design System，把它们交给 Lovable 生成可见原型；Figma、Pencil 可通过 MCP 让 Agent 操作。学生查看原型后反写 PRD v1，再让 AI 生成 Spec。方向确定后回到真实项目，用热重载收敛细节。
 
 **形成的判断**：原型是需求发现和视觉规格，不自动等于最终工程代码。工具负责扩大选择，人负责判断什么是对的。
 

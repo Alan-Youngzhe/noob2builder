@@ -7,7 +7,8 @@
 ## 主流程
 
 ```text
-GrillMe 需求访谈
+brainstorming 发散探索
+→ GrillMe 需求访谈与收敛
 → PRD v0
 → Design System
 → Lovable 原型
@@ -19,9 +20,9 @@ GrillMe 需求访谈
 → 正式发布与反馈
 ```
 
-### 1. GrillMe → PRD v0
+### 1. brainstorming → GrillMe → PRD v0
 
-一次只解决一个会改变需求的问题，先聊用户、场景、输入输出、范围、成功标准和边界。技术细节交给 Agent。访谈结束产出薄 PRD v0，它是原型探索的起点，不是假装一切已经确定。
+先用 brainstorming 在有限时间内发散用户、问题、场景和可能方向，保留多个候选但不急着选技术。再用 GrillMe 一次只解决一个会改变需求的问题，收敛用户、场景、输入输出、范围、成功标准和边界。技术细节交给 Agent。收敛结束产出薄 PRD v0，它是原型探索的起点，不是假装一切已经确定。
 
 ### 2. Design System → Lovable
 

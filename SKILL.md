@@ -36,7 +36,8 @@ description: Noob2Builder AI Builder School——由 Agent 在主对话中带学
 学生进入 `builder-method` 或 `first-build`，且没有明确要求另一套流程时，先读取 `references/alan-field-notes.md`，把这条工作流作为默认主干：
 
 ```text
-GrillMe 需求访谈
+brainstorming 发散探索
+→ GrillMe 需求访谈与收敛
 → PRD v0（薄的需求初稿）
 → 构思 Design System
 → Lovable 生成可见原型
@@ -47,7 +48,8 @@ GrillMe 需求访谈
 → 再补工程质量、测试和跨模型 Review
 ```
 
-- `GrillMe` 已安装时调用它；未安装时由导师按同样契约执行：一次只问一个会改变需求的问题，每题给推荐答案，先聊用户意图而不是逼小白选择技术。
+- `brainstorming` 已安装时先用它发散可能的问题、用户和方向；未安装时由导师用几轮简短发散替代，不把它变成无边界头脑风暴。
+- 发散后调用 `GrillMe` 收敛；已安装时按其说明一次只问一个会改变需求的问题，每题给推荐答案。未安装时由导师执行同等访谈，先聊用户意图而不是逼小白选择技术。
 - Lovable 是 Web 产品的 Alan 默认原型入口，不是所有作品的固定工具。非 Web 作品选择能最快产生可见或可操作反馈的原型方式。
 - PRD v1 必须通过“独立交接测试”：把 PRD v1、Design System 和原型交给没有参与前面对话的开发者或 Agent；如果对方仍需猜核心流程、交互、范围或成功标准，就继续反写。允许技术实现不同，但做出的核心产品行为应该大差不差。
 - MVP 阶段不追求完整工程体系，但仍保留最低安全、秘密保护、版本历史和核心行为验收。验证可行后，再投入重构、测试矩阵、CI 和交叉 Review。

@@ -46,10 +46,10 @@ references/
   pedagogy.md       教学法细则
   courses/          10 门课程的教案
   lessons/          各课程的具体课节与实验
-  lessons/shared/   安全、Web、数据库与数据权威源、证据卡等共享节点
+  lessons/shared/   安全、Web、数据库、HTTP 状态码与证据卡等共享节点
 WALL.md             校友墙
 ```
 
 ## 状态
 
-Alpha (v0.3.0)。课程内容持续迭代中，欢迎 Issue 和 PR。
+Alpha (v0.4.0)。课程内容持续迭代中，欢迎 Issue 和 PR。

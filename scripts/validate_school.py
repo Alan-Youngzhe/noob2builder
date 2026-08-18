@@ -17,6 +17,7 @@ REQUIRED = {
     "agents/openai.yaml",
     "references/catalog.md",
     "references/lessons/shared/database-and-data-authority.md",
+    "references/lessons/shared/http-status-codes.md",
     "references/pedagogy.md",
     "references/state-schema.md",
     "references/sources.md",
@@ -49,6 +50,11 @@ DATABASE_METHOD_PHRASES = [
     "数据只有一个逻辑权威源",
     "不要把不同维度放在一张候选表里直接比较",
     "不能只看 HTTP 200 或 Agent 的“成功”",
+]
+HTTP_METHOD_PHRASES = [
+    "401 = 你是谁？",
+    "403 = 我知道你是谁，但你不能进。",
+    "先看状态码，再看响应体",
 ]
 
 
@@ -117,6 +123,13 @@ def validate_skill(failures: list[str]) -> None:
     for phrase in DATABASE_METHOD_PHRASES:
         if phrase not in database_lesson:
             fail(f"database method requirement is missing: {phrase}", failures)
+
+    http_lesson = (ROOT / "references/lessons/shared/http-status-codes.md").read_text(
+        encoding="utf-8"
+    )
+    for phrase in HTTP_METHOD_PHRASES:
+        if phrase not in http_lesson:
+            fail(f"HTTP method requirement is missing: {phrase}", failures)
 
 
 def validate_markdown(listed: set[str], failures: list[str]) -> None:

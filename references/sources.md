@@ -23,6 +23,8 @@
 - SQLite 多进程与锁：<https://www.sqlite.org/faq.html>、<https://www.sqlite.org/lockingv3.html>
 - PGlite Socket：<https://pglite.dev/docs/pglite-socket>
 - Redis 用途与持久化：<https://redis.io/docs/latest/get-started/>、<https://redis.io/docs/latest/operate/oss_and_stack/management/persistence/>
+- HTTP 语义标准：<https://www.rfc-editor.org/rfc/rfc9110>
+- HTTP 状态码参考：<https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status>
 
 ## Hello Agents 许可
 

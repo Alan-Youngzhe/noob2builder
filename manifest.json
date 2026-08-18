@@ -1,6 +1,6 @@
 {
   "name": "noob2builder",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "status": "alpha",
   "source": "https://github.com/Alan-Youngzhe/noob2builder",
   "files": [
@@ -43,6 +43,7 @@
     "references/lessons/git-github/05-school-pr.md",
     "references/lessons/shared/evidence-card.md",
     "references/lessons/shared/database-and-data-authority.md",
+    "references/lessons/shared/http-status-codes.md",
     "references/lessons/shared/safety-and-secrets.md",
     "references/lessons/shared/web-product-foundations.md",
     "references/pedagogy.md",

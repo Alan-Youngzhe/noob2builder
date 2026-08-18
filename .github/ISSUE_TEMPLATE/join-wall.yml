@@ -1,0 +1,40 @@
+name: 加入校友墙
+description: 完成一次真实学习动作后，先创建 Issue，再提交 WALL.md PR
+title: "[Wall] "
+labels: ["alumni-wall"]
+body:
+  - type: dropdown
+    id: milestone
+    attributes:
+      label: 完成的里程碑
+      options:
+        - first-pr
+        - first-build
+        - agent-lab
+        - testing-verification
+        - agentic-upgrade
+    validations:
+      required: true
+  - type: input
+    id: evidence
+    attributes:
+      label: 可公开的完成证据
+      description: 作品、仓库、PR、脱敏证据卡或其它允许公开的链接。testing-verification 需包含测试矩阵、RED→GREEN 和课程要求的多层测试证据。
+    validations:
+      required: true
+  - type: textarea
+    id: reflection
+    attributes:
+      label: 一句话复盘
+      description: 你做了什么关键判断，或者纠正了 Agent 的什么错误？
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 隐私确认
+      options:
+        - label: 我没有提交手机号、微信号、邮箱、API Key、客户数据或未经授权的私有内容
+          required: true
+        - label: 我提交的证据属于我，且允许公开
+          required: true

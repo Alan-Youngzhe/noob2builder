@@ -1,10 +1,16 @@
 {
   "name": "noob2builder",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "status": "alpha",
   "source": "https://github.com/Alan-Youngzhe/noob2builder",
   "files": [
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/course-feedback.yml",
+    ".github/ISSUE_TEMPLATE/join-wall.yml",
+    ".github/pull_request_template.md",
+    ".github/workflows/validate.yml",
     ".gitignore",
+    "LICENSE",
     "README.md",
     "SKILL.md",
     "WALL.md",
@@ -57,6 +63,9 @@
     "references/pedagogy.md",
     "references/sources.md",
     "references/state-schema.md",
-    "scripts/validate_school.py"
+    "scripts/install.ps1",
+    "scripts/install.sh",
+    "scripts/validate_school.py",
+    "scripts/validate_wall.py"
   ]
 }

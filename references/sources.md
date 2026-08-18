@@ -25,6 +25,8 @@
 - Redis 用途与持久化：<https://redis.io/docs/latest/get-started/>、<https://redis.io/docs/latest/operate/oss_and_stack/management/persistence/>
 - HTTP 语义标准：<https://www.rfc-editor.org/rfc/rfc9110>
 - HTTP 状态码参考：<https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status>
+- Claude Code Skill 目录与共享方式：<https://code.claude.com/docs/en/slash-commands>
+- CC BY-NC-SA 4.0：<https://creativecommons.org/licenses/by-nc-sa/4.0/>
 
 ## Hello Agents 许可
 

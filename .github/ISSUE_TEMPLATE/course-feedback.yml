@@ -1,0 +1,36 @@
+name: 课程反馈或 Bug
+description: 报告卡点、错误、过时内容或改进建议
+title: "[Feedback] "
+labels: ["course-feedback"]
+body:
+  - type: input
+    id: course
+    attributes:
+      label: 课程或 lesson
+      placeholder: 例如 testing-verification / 03-unit-tests
+  - type: textarea
+    id: context
+    attributes:
+      label: 你原本想完成什么
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: 实际发生了什么
+      description: 请粘贴脱敏后的错误原文、命令或行为证据
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 你希望发生什么
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 隐私确认
+      options:
+        - label: 我已删除 API Key、密码、手机号、微信、客户数据和其它私人信息
+          required: true

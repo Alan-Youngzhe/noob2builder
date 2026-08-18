@@ -29,13 +29,44 @@
 
 ## 怎么开始
 
-1. 将本仓库作为 Skill 安装到你的 Agent 环境（如 Claude Code 的 `~/.claude/skills/`）
-2. 对 Agent 说：**"带我学 AI"**、**"我想做第一个作品"** 或 **"教我 Git/GitHub"**
-3. 导师会展示课程目录，根据你的目标推荐选课
+先用 CC Quick Installer 安装并验证 Claude Code，再安装 Noob2Builder。Claude Code 官方个人 Skill 目录是 `~/.claude/skills/<skill-name>/`。
+
+### 推荐：直接让 Claude Code 安装
+
+打开 Claude Code，把下面整段发给它：
+
+```text
+请先运行 git --version 检查 Git；没有就帮我安装并验证。
+然后把 https://github.com/Alan-Youngzhe/noob2builder.git
+安装到 ~/.claude/skills/noob2builder。
+如果目录已经存在，先检查本地修改，不要覆盖；只有干净的 Git 仓库才执行 git pull --ff-only。
+最后运行 python3 ~/.claude/skills/noob2builder/scripts/validate_school.py 验证，并告诉我真实输出。
+```
+
+### macOS / Linux 一行安装或更新
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Alan-Youngzhe/noob2builder/main/scripts/install.sh | bash
+```
+
+### Windows PowerShell 一行安装或更新
+
+```powershell
+irm https://raw.githubusercontent.com/Alan-Youngzhe/noob2builder/main/scripts/install.ps1 | iex
+```
+
+只从本仓库官方地址运行脚本；想先检查内容时，打开对应脚本链接阅读后再执行。安装器不会覆盖本地修改：目标目录不是 Git 仓库或存在未提交变化时会停止。
+
+### 验证并入学
+
+1. 新开一个 Claude Code 会话；
+2. 输入 `/noob2builder 带我看选修课`，或直接说“带我学 AI”；
+3. 确认导师展示课程目录，而不是只回答一段通用 AI 介绍；
+4. 更新时重复运行同一个安装命令，再检查 `manifest.json` 版本。
 
 ## 校友墙
 
-完成任意一项里程碑（第一个 PR、第一个发布的作品、第一个 Agent、一次 agentic 改造），欢迎向 [WALL.md](WALL.md) 提交 PR，留下你的证据和一句话复盘。
+完成任意一项里程碑（第一个 PR、第一个发布作品、第一个 Agent、一次测试闭环或 agentic 改造），先创建“加入校友墙” Issue，再向 [WALL.md](WALL.md) 提交 PR，留下证据和一句话复盘。
 
 ## 项目结构
 
@@ -53,4 +84,12 @@ WALL.md             校友墙
 
 ## 状态
 
-Alpha (v0.5.0)。课程内容持续迭代中，欢迎 Issue 和 PR。
+Alpha (v0.6.0)。课程内容持续迭代中，欢迎 Issue 和 PR。
+
+## 许可
+
+- 课程 Markdown：[`CC BY-NC-SA 4.0`](https://creativecommons.org/licenses/by-nc-sa/4.0/)，允许署名、非商业、相同方式共享的学习与改编；
+- 代码与自动化：MIT；
+- 第三方材料仍遵循各自许可。
+
+完整边界见 [LICENSE](LICENSE)。

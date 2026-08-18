@@ -12,6 +12,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 MANIFEST = ROOT / "manifest.json"
 REQUIRED = {
+    ".github/ISSUE_TEMPLATE/join-wall.yml",
+    ".github/pull_request_template.md",
+    ".github/workflows/validate.yml",
+    "LICENSE",
     "SKILL.md",
     "WALL.md",
     "agents/openai.yaml",
@@ -21,6 +25,9 @@ REQUIRED = {
     "references/pedagogy.md",
     "references/state-schema.md",
     "references/sources.md",
+    "scripts/install.ps1",
+    "scripts/install.sh",
+    "scripts/validate_wall.py",
 }
 SECRET_PATTERNS = {
     "OpenAI-style secret": re.compile(r"\bsk-[A-Za-z0-9_-]{20,}\b"),
@@ -62,6 +69,11 @@ TESTING_METHOD_PHRASES = [
     "冒烟测试",
     "E2E",
     "RED → 修复 → GREEN",
+]
+PUBLISH_METHOD_PHRASES = [
+    "~/.claude/skills/noob2builder",
+    "git pull --ff-only",
+    "python3 scripts/validate_wall.py",
 ]
 
 
@@ -144,6 +156,13 @@ def validate_skill(failures: list[str]) -> None:
     for phrase in TESTING_METHOD_PHRASES:
         if phrase not in testing_course:
             fail(f"testing course requirement is missing: {phrase}", failures)
+
+    publishing_text = (ROOT / "README.md").read_text(encoding="utf-8") + (
+        ROOT / "WALL.md"
+    ).read_text(encoding="utf-8")
+    for phrase in PUBLISH_METHOD_PHRASES:
+        if phrase not in publishing_text:
+            fail(f"publishing requirement is missing: {phrase}", failures)
 
 
 def validate_markdown(listed: set[str], failures: list[str]) -> None:

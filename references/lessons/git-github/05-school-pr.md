@@ -7,10 +7,10 @@
 ## 任务
 
 1. 打开 `https://github.com/Alan-Youngzhe/noob2builder`。
-2. 创建一个 Issue，说明要加入校友墙以及计划填写的证据类型。
+2. 使用仓库的“加入校友墙”Issue 模板，说明里程碑和可公开证据。
 3. Fork 或通过 GitHub 网页编辑 `WALL.md`；`gh` CLI 不可用时不必安装。
 4. 只新增或修改属于自己的一行。
-5. 创建 PR，关联 Issue，并写清隐私自检和完成证据。
+5. 本地编辑时运行 `python3 scripts/validate_wall.py`；网页编辑时由 PR 的 GitHub Actions 自动代跑。创建 PR，关联 Issue，并按 PR 模板写清隐私自检和完成证据。
 
 ## 安全自检
 

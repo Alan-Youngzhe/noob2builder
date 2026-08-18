@@ -1,0 +1,61 @@
+Noob2Builder Dual License
+==========================
+
+Copyright (c) 2026 Alan Yu / CODE-FORGE-AlanYu
+
+This repository uses two licenses because educational content and software
+have different reuse needs.
+
+1. Educational content: CC BY-NC-SA 4.0
+------------------------------------------------------------
+
+The Markdown course content, including SKILL.md, README.md, WALL.md, and the
+materials under references/, is licensed under the Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International license.
+
+You may share and adapt this content for non-commercial purposes if you:
+
+- give appropriate credit to Alan Yu / Noob2Builder;
+- link to the original repository and the license;
+- indicate whether you changed the material; and
+- distribute adaptations under the same license.
+
+License deed and legal code:
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en
+
+Commercial use, including paid course repackaging, paid training based
+substantially on these materials, or resale of modified copies, requires
+separate written permission from the copyright holder.
+
+2. Software and automation: MIT License
+------------------------------------------------------------
+
+Source code and automation files, including scripts/, .github/workflows/,
+and other executable code in this repository, are licensed under the MIT
+License below.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+3. Third-party material
+------------------------------------------------------------
+
+Third-party names, links, quoted facts, and referenced projects remain subject
+to their own licenses and terms. Nothing in this file relicenses third-party
+material. See references/sources.md for attribution and usage boundaries.

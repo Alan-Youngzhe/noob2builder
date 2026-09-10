@@ -6,7 +6,7 @@
 
 | ID | 课程 | 一句话结果 | 状态 |
 |---|---|---|---|
-| ⑧ | 计算机与网络基础：看懂 Agent 正在做什么 | 理解文件、终端、权限、端口、localhost、网络与 AI 友好格式 | beta |
+| ⑧ | 计算机与网络基础：看懂 Agent 正在做什么 | 理解文件、终端、权限、端口、localhost、网络与 AI 友好格式 | alpha |
 | ① | AI 世界地图 | 分清模型、厂商、API、Agent、Token、Context、Tool、MCP 与 Skill | beta |
 | ⑨ | LLM 与 Agent 原理 | 沿一次请求看懂生成、Context、Function Calling、ReAct 与缓存 | beta |
 
@@ -25,7 +25,7 @@
 | ID | 课程 | 一句话结果 | 状态 |
 |---|---|---|---|
 | ⑤ | 从 Vibe Coding 到 Agentic Engineering | 为旧项目补规格、测试、机器门禁、Review 与上线观察 | beta |
-| ⑪ | 测试与验证 | 分清单元、集成、冒烟、E2E，把 Agent 的“完成”变成可重放证据 | beta |
+| ⑪ | 测试与验证 | 分清单元、集成、冒烟、E2E，把 Agent 的“完成”变成可重放证据 | alpha |
 | ⑬ | 前端框架：组件化与项目结构 | 看懂组件、props、state、TSX 与路由，能做有验收证据的重构 | alpha |
 | ⑭ | 后端基础：API、数据与上线 | 分清前后端边界，做出有鉴权、有数据、部署后可访问的最小后端 | beta |
 | ⑥ | 从 Prompt 到 Graph | 判断 Prompt、Context、Harness、Loop、Graph 各解决什么问题 | beta |

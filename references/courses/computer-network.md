@@ -1,29 +1,48 @@
 # ⑧ 计算机与网络基础：看懂 Agent 正在做什么
 
-状态：beta
+状态：alpha
 
 ## 唯一承诺
 
 不学计算机专业，也能看懂 Agent 正在操作的文件、终端、权限、进程、URL、端口、localhost 和网络访问，并知道问题大致发生在哪一层。
 
-## 教学节点
+## 适合什么时候选
 
-1. 文件、目录、路径和扩展名；
-2. 终端、命令、权限和进程；
-3. URL、DNS、IP、端口与 localhost；
-4. 代理、网络可达性与合规边界；
-5. Markdown、CSV、JSON、HTML 为什么通常更适合 Agent；
-6. HTTP 请求、响应和状态码，先判断问题在哪一层；
-7. 用语音输入降低 Context 采集摩擦。
+- 不敢碰终端，看到黑框就想关掉；
+- Agent 说"改好了"，但不知道它改的是哪个文件；
+- 本地跑起来了，发给别人却打不开；
+- 一报错就把整段错误甩给 Agent，然后陪它盲试；
+- 分不清 localhost、端口、域名和 IP。
 
-## 最小实验
+## 节点与 lesson
 
-- 创建、移动、读取一个临时文件；
-- 启动一个本地服务，查看端口，再停止进程；
-- 用 `curl -i` 或浏览器 Network 面板观察一次成功、一次 4xx 和一次 5xx（无法真实制造时标记为演练）；
-- 把同一组数据分别保存为截图说明和 CSV，比较可提取、修改和 diff 的难度；
-- 生成自己的网络故障诊断卡。
+| 节点 | 文件 |
+|---|---|
+| Agent 在动哪个文件：目录、路径与扩展名 | `../lessons/computer-network/01-files-and-paths.md` |
+| 终端、命令与进程：Agent 的手在哪里 | `../lessons/computer-network/02-terminal-and-processes.md` |
+| URL、DNS、IP 与端口：地址怎么找到机器 | `../lessons/computer-network/03-url-dns-port-localhost.md` |
+| 本地能跑不等于别人能访问：可达性、代理与边界 | `../lessons/computer-network/04-reachability-and-boundaries.md` |
+| Agent 更容易吃什么：格式、结构与输入方式 | `../lessons/computer-network/05-agent-friendly-input.md` |
+| 出问题先分层：请求、状态码与诊断卡 | `../lessons/computer-network/06-layered-diagnosis.md` |
+
+第一次遇到危险命令或密钥时插入 `../lessons/shared/safety-and-secrets.md`；第一次看到 HTTP 状态码时插入 `../lessons/shared/http-status-codes.md`。
+
+## 这门课的核心判断
+
+```text
+先确定问题在哪一层
+→ 再选查这一层最便宜的命令
+→ 用真实输出确认或推翻判断
+→ 判断错了就回上一步重新分层，而不是继续猜
+```
+
+不要求背命令。要求学生能解释 Agent 刚才改了什么、在哪里、怎样恢复。
 
 ## 完成证据
 
-学生能解释“本地运行不等于别人可访问”，能区分本机、网络、账号和外部服务故障。本课程正在拆分独立 lesson，当前按节点渐进讲授。
+- 能说出一个 Agent 刚操作过的文件的绝对路径，并确认它是不是自己以为的那个；
+- 完成一次"启动服务 → 确认在跑 → 停止 → 确认停了"的真实闭环；
+- 能解释"本地运行不等于别人可访问"，并指出自己这次卡在链路的哪一层；
+- 至少把一份真实资料转成 Markdown/CSV/JSON，并说明为什么比原格式好用；
+- 提交 `MY_DIAGNOSIS_CARD.md`，包含真实的 2xx、4xx 以及一次失败请求的输出；
+- 无法真实制造的场景标记为 `simulated`，不写成验证通过。

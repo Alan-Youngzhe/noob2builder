@@ -1,6 +1,6 @@
 {
   "name": "noob2builder",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "status": "alpha",
   "source": "https://github.com/Alan-Youngzhe/noob2builder",
   "files": [
@@ -54,6 +54,11 @@
     "references/lessons/ai-map/04-agent-and-tools.md",
     "references/lessons/ai-map/05-mcp-skill-plugin.md",
     "references/lessons/ai-map/06-choose-model.md",
+    "references/lessons/ai-product-sense/01-chatbox-is-not-product.md",
+    "references/lessons/ai-product-sense/02-context-map.md",
+    "references/lessons/ai-product-sense/03-context-to-action.md",
+    "references/lessons/ai-product-sense/04-founder-view.md",
+    "references/lessons/ai-product-sense/05-outcome-eval.md",
     "references/lessons/backend-foundations/01-frontend-backend-boundary.md",
     "references/lessons/backend-foundations/02-api-design.md",
     "references/lessons/backend-foundations/03-choose-server-stack.md",

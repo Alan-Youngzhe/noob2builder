@@ -87,7 +87,7 @@ WALL.md             校友墙
 
 ## 状态
 
-Alpha (v0.7.0)。课程内容持续迭代中，欢迎 Issue 和 PR。
+Alpha (v0.8.0)。课程内容持续迭代中，欢迎 Issue 和 PR。
 
 ## 许可
 

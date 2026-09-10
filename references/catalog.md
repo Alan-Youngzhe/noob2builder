@@ -27,7 +27,7 @@
 | ⑤ | 从 Vibe Coding 到 Agentic Engineering | 为旧项目补规格、测试、机器门禁、Review 与上线观察 | beta |
 | ⑪ | 测试与验证 | 分清单元、集成、冒烟、E2E，把 Agent 的“完成”变成可重放证据 | alpha |
 | ⑬ | 前端框架：组件化与项目结构 | 看懂组件、props、state、TSX 与路由，能做有验收证据的重构 | alpha |
-| ⑭ | 后端基础：API、数据与上线 | 分清前后端边界，做出有鉴权、有数据、部署后可访问的最小后端 | beta |
+| ⑭ | 后端基础：API、数据与上线 | 分清前后端边界，做出有鉴权、有数据、部署后可访问的最小后端 | alpha |
 | ⑥ | 从 Prompt 到 Graph | 判断 Prompt、Context、Harness、Loop、Graph 各解决什么问题 | beta |
 | ⑦ | AI 产品 Sense | 从用户、Context、行动、反馈与价值判断 AI 产品是否值得做 | beta |
 

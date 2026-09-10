@@ -32,7 +32,26 @@
 
 ## 怎么开始
 
-先用 CC Quick Installer 安装并验证 Claude Code，再安装 Noob2Builder。Claude Code 官方个人 Skill 目录是 `~/.claude/skills/<skill-name>/`。
+先用 CC Quick Installer 安装并验证 Claude Code，再安装 Noob2Builder。装好之后它就是 Claude Code 里的一个命令：**`/nb`**。不需要记住仓库地址，也不需要打开任何文件。
+
+## 下次怎么继续上课
+
+打开 Claude Code，输入：
+
+```text
+/nb
+```
+
+就这一个命令。导师会读取你的学习存档，告诉你上次学到哪、已经有哪些证据，然后接着往下讲。
+
+也可以在后面带上你想做的事：
+
+- `/nb 继续` —— 接上次的进度
+- `/nb 带我看选修课` —— 重新看课程目录
+- `/nb 教我 Git` —— 直接进入某门课
+- `/nb 我想做一个小工具` —— 让导师帮你推荐从哪开始
+
+学习存档保存在你电脑的 `~/.noob2builder/me.json`，换台电脑需要把这个文件一起带过去。
 
 ### 推荐：直接让 Claude Code 安装
 
@@ -41,9 +60,10 @@
 ```text
 请先运行 git --version 检查 Git；没有就帮我安装并验证。
 然后把 https://github.com/Alan-Youngzhe/noob2builder.git
-安装到 ~/.claude/skills/noob2builder。
+安装到 ~/.claude/skills/nb。
+如果 ~/.claude/skills/noob2builder 已经存在（旧版），先检查本地修改，再把它改名为 ~/.claude/skills/nb，不要保留两份。
 如果目录已经存在，先检查本地修改，不要覆盖；只有干净的 Git 仓库才执行 git pull --ff-only。
-最后运行 python3 ~/.claude/skills/noob2builder/scripts/validate_school.py 验证，并告诉我真实输出。
+最后运行 python3 ~/.claude/skills/nb/scripts/validate_school.py 验证，并告诉我真实输出。
 ```
 
 ### macOS / Linux 一行安装或更新
@@ -60,11 +80,13 @@ irm https://raw.githubusercontent.com/Alan-Youngzhe/noob2builder/main/scripts/in
 
 只从本仓库官方地址运行脚本；想先检查内容时，打开对应脚本链接阅读后再执行。安装器不会覆盖本地修改：目标目录不是 Git 仓库或存在未提交变化时会停止。
 
+**从旧版升级**：以前的命令是 `/noob2builder`，装在 `~/.claude/skills/noob2builder`。重新运行上面的安装命令即可，安装器会自动把旧目录改名为 `~/.claude/skills/nb`，本地修改和学习进度都会保留。
+
 ### 验证并入学
 
-1. 新开一个 Claude Code 会话；
-2. 输入 `/noob2builder 带我看选修课`，或直接说“带我学 AI”；
-3. 确认导师展示课程目录，而不是只回答一段通用 AI 介绍；
+1. 新开一个 Claude Code 会话（已经开着的会话不会识别新装的命令）；
+2. 输入 `/nb`，或直接说“带我学 AI”；
+3. 确认导师展示课程目录、并问你一两句你是做什么的，而不是只回答一段通用 AI 介绍；
 4. 更新时重复运行同一个安装命令，再检查 `manifest.json` 版本。
 
 ## 校友墙

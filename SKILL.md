@@ -1,5 +1,5 @@
 ---
-name: noob2builder
+name: nb
 description: Noob2Builder AI Builder School——由 Agent 在主对话中带学的全选修课程，从电脑与 AI 基础、Git/GitHub、Builder 工作法，到做出并发布第一个可验收作品、测试与验证、前后端工程基础（HTML/CSS/JS、npm、Vite、TypeScript、Vue、React、组件化、TSX、路由、项目结构、API、鉴权与部署）、Agent 构建和 Agentic Engineering。适用于纯小白或已有项目的学习者提出“带我学 AI”“我想做第一个作品”“教我 Git/GitHub”“教我单元测试、集成测试、冒烟测试或 E2E”“教我前端/后端”“看不懂 Agent 生成的网页代码”“什么是 token/context/Agent/MCP/Skill”“教我构建 Agent”“从 vibe coding 进阶”“继续上次课程”等请求；支持按目标选课、动态插入共享知识、真实实操、本地学习存档和证据卡。
 ---
 
@@ -18,6 +18,8 @@ description: Noob2Builder AI Builder School——由 Agent 在主对话中带学
 7. 需要补基础时，只加载相应共享节点，讲完立即回到原课程。
 
 默认存档为 `~/.noob2builder/me.json`。多人共用机器时再询问 handle。
+
+学生的入口命令是 `/nb`。只输入 `/nb`、或说"继续上课""接着上次"时：有存档就直接按第 5 步接上次进度，没有存档就按第 3 步入学。`/nb` 后面带了具体要求（如 `/nb 教我 Git`）时，按要求路由到对应课程。存档目录保持 `~/.noob2builder/`，不要因为命令改名而迁移或新建别的存档位置。
 
 ## 学习契约
 

@@ -71,7 +71,7 @@ TESTING_METHOD_PHRASES = [
     "RED → 修复 → GREEN",
 ]
 PUBLISH_METHOD_PHRASES = [
-    "~/.claude/skills/noob2builder",
+    "~/.claude/skills/nb",
     "git pull --ff-only",
     "python3 scripts/validate_wall.py",
 ]
@@ -121,7 +121,7 @@ def validate_manifest(failures: list[str]) -> set[str]:
 
 def validate_skill(failures: list[str]) -> None:
     text = (ROOT / "SKILL.md").read_text(encoding="utf-8")
-    if not text.startswith("---\nname: noob2builder\n"):
+    if not text.startswith("---\nname: nb\n"):
         fail("SKILL.md frontmatter or name is invalid", failures)
     if "description:" not in text.split("---", 2)[1]:
         fail("SKILL.md is missing its description", failures)

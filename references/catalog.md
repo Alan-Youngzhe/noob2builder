@@ -8,7 +8,7 @@
 |---|---|---|---|
 | ⑧ | 计算机与网络基础：看懂 Agent 正在做什么 | 理解文件、终端、权限、端口、localhost、网络与 AI 友好格式 | alpha |
 | ① | AI 世界地图 | 分清模型、厂商、API、Agent、Token、Context、Tool、MCP 与 Skill | beta |
-| ⑨ | LLM 与 Agent 原理 | 沿一次请求看懂生成、Context、Function Calling、ReAct 与缓存 | beta |
+| ⑨ | LLM 与 Agent 原理 | 沿一次请求看懂生成、Context、Function Calling、ReAct 与缓存 | alpha |
 
 ## 我想开始做
 

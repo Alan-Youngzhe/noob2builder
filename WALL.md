@@ -16,3 +16,4 @@
 
 | GitHub | 完成证据 | 作品 | 日期 | 一句话复盘 |
 |---|---|---|---|---|
+| [li-exe](https://github.com/li-exe) | [网页整页翻译](https://github.com/li-exe/webpage-translator1)：Chrome 扩展 first-build，百度真实翻译打通，含 PRD/SPEC/证据卡 | [网页整页翻译](https://github.com/li-exe/webpage-translator1) | 2026-09-09 | 第一次把想法做成能用的作品；学会用报错码分层定位问题，52003 让我查到百度账号侧而非自己代码，挺好玩的，不知道学了代码后好玩不 |

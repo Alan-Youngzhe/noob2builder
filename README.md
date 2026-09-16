@@ -1,8 +1,24 @@
 # Noob2Builder · AI Builder School
 
+<p align="center">
+  <a href="https://github.com/Alan-Youngzhe/noob2builder/stargazers"><img src="https://img.shields.io/github/stars/Alan-Youngzhe/noob2builder?style=flat-square" alt="stars"></a>
+  <img src="https://img.shields.io/badge/version-0.8.0%20alpha-orange?style=flat-square" alt="version">
+  <img src="https://img.shields.io/badge/Claude%20Code-skill-000?style=flat-square&logo=anthropic&logoColor=white" alt="claude code skill">
+  <img src="https://img.shields.io/badge/courses-14-blue?style=flat-square" alt="14 courses">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0%20%2B%20MIT-green?style=flat-square" alt="license"></a>
+</p>
+
 一所由 Agent 亲自带学的学校。不是文档合集，而是导师在主对话里讲清原理，带你操作真实文件、运行真实命令，直到你做出并发布第一个可验收的作品。
 
 适合纯小白，也适合已有项目、想从 vibe coding 进阶到 agentic engineering 的学习者。
+
+*An AI Builder school that runs inside Claude Code as a single `/nb` command: 14 elective courses, real files and real commands, evidence-backed progress — from "what is a token" to shipping your first verifiable project.*
+
+<p align="center">
+  <img src="docs/screenshots/nb-catalog.png" width="860" alt="在 Claude Code 里输入 /nb 后，导师展示 14 门选修课并开始入学对话">
+  <br>
+  <sub>输入 <code>/nb</code>，导师摊开课表、问两句你的背景，然后开课。内容是 <code>claude -p "/nb"</code> 的真实输出，只加了终端外框。</sub>
+</p>
 
 ## 理念
 
